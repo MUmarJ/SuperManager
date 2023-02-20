@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2990B278298A099E00122AAC /* SuperManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B277298A099E00122AAC /* SuperManagerApp.swift */; };
-		2990B27A298A099E00122AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B279298A099E00122AAC /* ContentView.swift */; };
+		2990B27A298A099E00122AAC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B279298A099E00122AAC /* LoginView.swift */; };
 		2990B27C298A099F00122AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2990B27B298A099F00122AAC /* Assets.xcassets */; };
 		2990B27F298A099F00122AAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2990B27E298A099F00122AAC /* Preview Assets.xcassets */; };
 		2990B289298A099F00122AAC /* SuperManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B288298A099F00122AAC /* SuperManagerTests.swift */; };
 		2990B293298A099F00122AAC /* SuperManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B292298A099F00122AAC /* SuperManagerUITests.swift */; };
 		2990B295298A099F00122AAC /* SuperManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B294298A099F00122AAC /* SuperManagerUITestsLaunchTests.swift */; };
+		2990B2A3298A0CFA00122AAC /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2990B2A2298A0CFA00122AAC /* SwiftUICharts */; };
+		2990B2A5298A25C900122AAC /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2A4298A25C900122AAC /* CheckBoxView.swift */; };
+		2990B2A7298A27D500122AAC /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2A6298A27D500122AAC /* LoginButtonView.swift */; };
+		2990B2A9298AA3C800122AAC /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2A8298AA3C800122AAC /* CarouselView.swift */; };
+		2990B2AD298ACDAC00122AAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2AC298ACDAC00122AAC /* HomeView.swift */; };
+		2990B2AF298ACE5E00122AAC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2AE298ACE5E00122AAC /* CardView.swift */; };
+		2990B2B1298ACE8200122AAC /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2B0298ACE8100122AAC /* TrailingIconLabelStyle.swift */; };
+		2990B2B4298AD1AE00122AAC /* HeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2B3298AD1AE00122AAC /* HeroCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		2990B274298A099E00122AAC /* SuperManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2990B277298A099E00122AAC /* SuperManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperManagerApp.swift; sourceTree = "<group>"; };
-		2990B279298A099E00122AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2990B279298A099E00122AAC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2990B27B298A099F00122AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2990B27E298A099F00122AAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2990B284298A099F00122AAC /* SuperManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,13 @@
 		2990B28E298A099F00122AAC /* SuperManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2990B292298A099F00122AAC /* SuperManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperManagerUITests.swift; sourceTree = "<group>"; };
 		2990B294298A099F00122AAC /* SuperManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2990B2A4298A25C900122AAC /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		2990B2A6298A27D500122AAC /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		2990B2A8298AA3C800122AAC /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		2990B2AC298ACDAC00122AAC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2990B2AE298ACE5E00122AAC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2990B2B0298ACE8100122AAC /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		2990B2B3298AD1AE00122AAC /* HeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2990B2A3298A0CFA00122AAC /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +111,14 @@
 			isa = PBXGroup;
 			children = (
 				2990B277298A099E00122AAC /* SuperManagerApp.swift */,
-				2990B279298A099E00122AAC /* ContentView.swift */,
+				2990B2B2298AD19500122AAC /* Models */,
+				2990B279298A099E00122AAC /* LoginView.swift */,
+				2990B2AC298ACDAC00122AAC /* HomeView.swift */,
+				2990B2AE298ACE5E00122AAC /* CardView.swift */,
+				2990B2B0298ACE8100122AAC /* TrailingIconLabelStyle.swift */,
+				2990B2A6298A27D500122AAC /* LoginButtonView.swift */,
+				2990B2A4298A25C900122AAC /* CheckBoxView.swift */,
+				2990B2A8298AA3C800122AAC /* CarouselView.swift */,
 				2990B27B298A099F00122AAC /* Assets.xcassets */,
 				2990B27D298A099F00122AAC /* Preview Content */,
 			);
@@ -127,6 +150,14 @@
 			path = SuperManagerUITests;
 			sourceTree = "<group>";
 		};
+		2990B2B2298AD19500122AAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2990B2B3298AD1AE00122AAC /* HeroCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +174,9 @@
 			dependencies = (
 			);
 			name = SuperManager;
+			packageProductDependencies = (
+				2990B2A2298A0CFA00122AAC /* SwiftUICharts */,
+			);
 			productName = SuperManager;
 			productReference = 2990B274298A099E00122AAC /* SuperManager.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +249,9 @@
 				Base,
 			);
 			mainGroup = 2990B26B298A099E00122AAC;
+			packageReferences = (
+				2990B2A1298A0CFA00122AAC /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 2990B275298A099E00122AAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2990B27A298A099E00122AAC /* ContentView.swift in Sources */,
+				2990B2AF298ACE5E00122AAC /* CardView.swift in Sources */,
+				2990B2A9298AA3C800122AAC /* CarouselView.swift in Sources */,
+				2990B2A7298A27D500122AAC /* LoginButtonView.swift in Sources */,
+				2990B2B1298ACE8200122AAC /* TrailingIconLabelStyle.swift in Sources */,
+				2990B27A298A099E00122AAC /* LoginView.swift in Sources */,
+				2990B2AD298ACDAC00122AAC /* HomeView.swift in Sources */,
+				2990B2A5298A25C900122AAC /* CheckBoxView.swift in Sources */,
 				2990B278298A099E00122AAC /* SuperManagerApp.swift in Sources */,
+				2990B2B4298AD1AE00122AAC /* HeroCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2990B2A1298A0CFA00122AAC /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2990B2A2298A0CFA00122AAC /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2990B2A1298A0CFA00122AAC /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2990B26C298A099E00122AAC /* Project object */;
 }
