@@ -11,7 +11,7 @@ import SwiftUI
 struct SuperManagerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
